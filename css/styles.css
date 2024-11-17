@@ -1,0 +1,227 @@
+@font-face {
+  font-family: Christmas;
+  src: url("../fonts/silver_christmas/Silver\ Christmas\ -\ Personal\ Use.otf") format("opentype");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("../background.jpg");
+  background-position: bottom;
+  background-size: 100% auto;
+  color: #222;
+}
+
+#canvas {
+  position: absolute;
+  z-index: 1;
+}
+
+.page-content {
+  position: absolute;
+
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 400;
+}
+
+/* HEADER */
+
+.header-container {
+  font-family: 'Christmas';
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 60vh;
+}
+
+.christmas-pre-header {
+  padding: 0;
+  margin: 0;
+  font-size: 100px;
+}
+
+.christmas-header {
+  padding: 0;
+  margin: 0;
+  font-size: 200px;
+}
+
+/* WORKSHOPS */
+
+.workshops-container-container {
+  position: fixed;
+  bottom: 30px;
+
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.workshops-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px 40px;
+}
+
+#event-date-1, #event-time-1 {
+  background-color: #cdd873;
+}
+#event-date-2, #event-time-2 {
+  background-color:	#d03b3b;
+}
+#event-date-3, #event-time-3 {
+  background-color:	#901a1a;
+}
+#event-date-4, #event-time-4 {
+  background-color: #28543c;
+}
+
+.event {
+  height: 150px;
+  width: 40vw;
+
+  background-color:	#ffffff;
+  display: flex;
+
+  border-radius: 5px;
+}
+
+.date {
+  height: 150px;
+  min-width: 150px;
+  text-align: center;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px 0 0 5px;
+}
+
+.date-day {
+  margin: 0;
+  font-size: 70px;
+}
+
+.date-month {
+  margin: 0;
+}
+
+.event-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-description {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.event-title {
+  margin: 0;
+  padding: 0;
+}
+
+.event-time {
+  margin: 0;
+  padding: 0;
+
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 15px;
+
+  font-weight: 800;
+  color: #ffffff;
+}
+
+/* COUNTDOWN */
+
+.christmas-countdown-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  color: #222;
+}
+
+.countdown-label {
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+}
+
+.countdown {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.timer-element {
+  padding: 0;
+  margin: 0;
+}
+
+.timer-element p {
+  padding: 0;
+  margin: 0;
+  color: #d03b3b;
+  font-weight: 800;
+}
+
+/* QR CODE */
+
+.qr-code {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  color: #222;
+}
+
+.qr-label {
+  margin: 0;
+  padding: 0;
+}
+
+.qr-code img {
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  width: auto;
+}
