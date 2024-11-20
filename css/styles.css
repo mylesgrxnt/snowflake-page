@@ -97,7 +97,7 @@ body {
 }
 
 .event {
-  height: 12vh;
+  height: 16vh;
   width: 32vw;
 
   background-color:	#ffffff;
@@ -107,8 +107,8 @@ body {
 }
 
 .date {
-  height: 12vh;
-  min-width: 12vh;
+  height: 16vh;
+  min-width: 16vh;
   text-align: center;
   color: #ffffff;
 
