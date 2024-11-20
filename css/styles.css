@@ -97,7 +97,7 @@ body {
 }
 
 .event {
-  height: 20vh;
+  height: 16vh;
   width: 32vw;
 
   background-color:	#ffffff;
@@ -107,8 +107,8 @@ body {
 }
 
 .date {
-  height: 20vh;
-  min-width: 20vh;
+  height: 16vh;
+  min-width: 16vh;
   text-align: center;
   color: #ffffff;
 
@@ -130,7 +130,7 @@ body {
 }
 
 .event-container {
-  padding: 10px;
+  padding: 1vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -139,7 +139,7 @@ body {
 }
 
 .event-description {
-  margin: 10px 0;
+  margin: 1vh 0;
   padding: 0;
 }
 
