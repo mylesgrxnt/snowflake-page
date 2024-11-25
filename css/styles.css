@@ -97,7 +97,7 @@ body {
 }
 
 .event {
-  height: 16vh;
+  height: 18vh;
   width: 32vw;
 
   background-color:	#ffffff;
@@ -109,7 +109,7 @@ body {
 }
 
 .date {
-  height: 16vh;
+  height: 18vh;
   min-width: 16vh;
   text-align: center;
   color: #ffffff;
@@ -151,7 +151,7 @@ body {
 
 .event-time {
   margin: 0;
-  padding: 10px;
+  padding: 5px;
 
   width: fit-content;
   height: 3vh;
@@ -174,8 +174,6 @@ body {
   padding: 10px;
   font-size: x-large;
   color: #222;
-
-  width: 15vw;
 }
 
 .countdown-label {
