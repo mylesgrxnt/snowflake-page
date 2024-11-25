@@ -104,6 +104,8 @@ body {
   display: flex;
 
   border-radius: 5px;
+
+  font-size: large;
 }
 
 .date {
@@ -135,7 +137,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
 
-  font-size: 10px;
 }
 
 .event-description {
@@ -171,7 +172,7 @@ body {
   background-color: #ffffff;
   border-radius: 5px;
   padding: 10px;
-  font-size: 15px;
+  font-size: large;
   color: #222;
 }
 
