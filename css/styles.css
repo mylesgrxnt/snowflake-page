@@ -8,9 +8,9 @@ body {
   margin: 0;
   height: 100vh;
   background-image: url("../valentinesBackground.jpg");
-  background-position: bottom;
+  background-position: center;
   background-size: 100% auto;
-  color: #222;
+  color: #222;  
 }
 
 #canvas {
