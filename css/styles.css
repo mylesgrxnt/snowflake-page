@@ -6,7 +6,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url("../background.jpg");
+  background-image: url("../valentinesBackground.jpg");
   background-position: bottom;
   background-size: 100% auto;
   color: #222;
@@ -73,12 +73,12 @@ body {
 
 .workshops-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   grid-gap: 10px 1vw;
 }
 
 #event-date-1, #event-time-1 {
-  background-color: #cdd873;
+  background-color: #ff82a3;
 }
 #event-date-2, #event-time-2 {
   background-color:	#d03b3b;
@@ -87,18 +87,18 @@ body {
   background-color:	#901a1a;
 }
 #event-date-4, #event-time-4 {
-  background-color: #28543c;
+  background-color: #780b0b;
 }
 #event-date-5, #event-time-5 {
-  background-color: #cdd873;
+  background-color: #cb679c;
 }
 #event-date-6, #event-time-6 {
-  background-color:	#d03b3b;
+  background-color:	#c30065;
 }
 
 .event {
   height: 18vh;
-  width: 32vw;
+  width: 40vw;
 
   background-color:	#ffffff;
   display: flex;
