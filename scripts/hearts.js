@@ -1,4 +1,4 @@
-function createHeartsRain() {
+function createSnowRain() {
   const heartContainer = document.createElement('div');
   heartContainer.style.position = 'fixed';
   heartContainer.style.top = '0';
@@ -9,9 +9,9 @@ function createHeartsRain() {
   heartContainer.style.pointerEvents = 'none';
   document.body.appendChild(heartContainer);
   
-  function createHeart() {
+  function createSnowFlake() {
       const heart = document.createElement('div');
-      heart.innerHTML = '❤️';
+      heart.innerHTML = '❄️';
       heart.style.position = 'absolute';
       heart.style.fontSize = `${Math.random() * 20 + 10}px`;
       heart.style.left = `${Math.random() * 100}vw`;
@@ -31,7 +31,7 @@ function createHeartsRain() {
       }, 3000);
   }
   
-  setInterval(createHeart, 200);
+  setInterval(createSnowFlake, 200);
 }
 
-createHeartsRain();
+createSnowRain();

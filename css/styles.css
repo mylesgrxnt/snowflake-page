@@ -7,7 +7,7 @@ body {
   padding: 0;
   margin: 0;
   height: 100vh;
-  background-image: url("../valentinesBackground.jpg");
+  background-image: url("../winterBackground.jpg");
   background-position: center;
   background-size: 100% auto;
   color: #222;  
@@ -79,16 +79,16 @@ body {
 }
 
 #event-date-1, #event-time-1 {
-  background-color: #ff82a3;
+  background-color: #b5d3ef;
 }
 #event-date-2, #event-time-2 {
-  background-color:	#d03b3b;
+  background-color:	#67b0d3;
 }
 #event-date-3, #event-time-3 {
-  background-color:	#901a1a;
+  background-color:	#0a606a;
 }
 #event-date-4, #event-time-4 {
-  background-color: #780b0b;
+  background-color: #3e406e;
 }
 #event-date-5, #event-time-5 {
   background-color: #cb679c;
@@ -98,19 +98,19 @@ body {
 }
 
 .bordered-1 {
-  border:3px solid #ff82a3;
+  border:3px solid #b5d3ef;
 }
 
 .bordered-2 {
-  border:3px solid #d03b3b;
+  border:3px solid #67b0d3;
 }
 
 .bordered-3 {
-  border:3px solid #901a1a;
+  border:3px solid #0a606a;
 }
 
 .bordered-4 {
-  border:3px solid #780b0b;
+  border:3px solid #3e406e;
 }
 
 .event {
@@ -254,7 +254,7 @@ body {
 .qr-code img {
   margin: 0;
   padding: 0;
-  height: 8vw;
+  height: 14vw;
   width: auto;
 }
 
