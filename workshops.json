@@ -1,26 +1,30 @@
 {
-  "Getting Sweet With Syrup!": {
-    "month": "Feb",
+  "Workshop 1": {
+    "name": "Needle Felting",
+    "month": "Mar",
     "day": "24",
-    "time": "7:00 PM",
-    "description": "Pour, swirl, and savor the sweetness with this syrup-making workshop!"
+    "time": "6:00 PM",
+    "description": "Create cute creations with this wool-y fun workshop!"
   },
-  "Needle Felting Workshop": {
+  "Workshop 2": {
+    "name": "Scan Your Head!",
     "month": "Feb",
-    "day": "24",
+    "day": "25",
     "time": "7:00 PM",
-    "description": "Pour, swirl, and savor the sweetness with this syrup-making workshop!"
+    "description": "Learn Photogrammetry and Blender in this introduction to 3D Scanning!"
   },
-  "Needle Felting Workshop 2": {
+  "Workshop 3": {
+    "name": "Make a Resin Jewelry Tray!",
     "month": "Feb",
-    "day": "24",
-    "time": "7:00 PM",
-    "description": "Pour, swirl, and savor the sweetness with this syrup-making workshop!"
+    "day": "26",
+    "time": "7:30 PM",
+    "description": "Make a beautiful resin-based jewelry tray to hold jewelry, makeup, or anything else!"
   },
-  "Needle Felting Workshop 3": {
-    "month": "Feb",
-    "day": "24",
-    "time": "7:00 PM",
-    "description": "Pour, swirl, and savor the sweetness with this syrup-making workshop!"
+  "Workshop 4": {
+    "name": "Silver Ring Making",
+    "month": "Mar",
+    "day": "12",
+    "time": "4:00 PM",
+    "description": "Put a ring on it - yourself!"
   }
 }
