@@ -21,13 +21,13 @@ jobs:
       - name: Install dependencies
         run: pip install Jinja2
 
-      - name: Run script to generate new events page
+      - name: Run script to generate new index page
         run: python generate_html.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add events.html
-          git commit -m "Auto-update events page"
+          git add index.html
+          git commit -m "Auto-update index page"
           git push
