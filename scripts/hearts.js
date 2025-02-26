@@ -17,7 +17,7 @@ function createSnowRain() {
       heart.style.left = `${Math.random() * 100}vw`;
       heart.style.top = '-20px';
       heart.style.opacity = Math.random();
-      heart.style.transition = 'transform 3s linear, opacity 3s linear';
+      heart.style.transition = 'transform 6s linear, opacity 6s linear';
       
       heartContainer.appendChild(heart);
       
@@ -28,7 +28,7 @@ function createSnowRain() {
       
       setTimeout(() => {
           heart.remove();
-      }, 3000);
+      }, 6000);
   }
   
   setInterval(createSnowFlake, 300);
