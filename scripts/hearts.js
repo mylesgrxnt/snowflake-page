@@ -13,7 +13,7 @@ function createSnowRain() {
       const heart = document.createElement('div');
       heart.innerHTML = '❄️';
       heart.style.position = 'absolute';
-      heart.style.fontSize = `${Math.random() * 20 + 10}px`;
+      heart.style.fontSize = `${Math.random() * 40 + 10}px`;
       heart.style.left = `${Math.random() * 100}vw`;
       heart.style.top = '-20px';
       heart.style.opacity = Math.random();
@@ -31,7 +31,7 @@ function createSnowRain() {
       }, 3000);
   }
   
-  setInterval(createSnowFlake, 200);
+  setInterval(createSnowFlake, 300);
 }
 
 createSnowRain();

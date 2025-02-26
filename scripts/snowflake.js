@@ -10,7 +10,7 @@ function createSnowflake() {
   return {
     x: Math.random() * canvas.width,
     y: -10,
-    radius: Math.random() * 4 + 1,
+    radius: Math.random() * 70 + 3,
     speed: Math.random() * 2 + 1,
     wind: Math.random() * 0.5 - 0.25
   };
