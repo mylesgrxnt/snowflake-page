@@ -1,30 +1,30 @@
 {
   "Workshop 1": {
-    "name": "Needle Felting",
-    "month": "Mar",
-    "day": "24",
-    "time": "6:00 PM",
-    "description": "Create cute creations with this wool-y fun workshop!"
-  },
-  "Workshop 2": {
-    "name": "Scan Your Head!",
-    "month": "Feb",
-    "day": "25",
-    "time": "7:00 PM",
-    "description": "Learn Photogrammetry and Blender in this introduction to 3D Scanning!"
-  },
-  "Workshop 3": {
-    "name": "Make a Resin Jewelry Tray!",
-    "month": "Feb",
-    "day": "26",
-    "time": "7:30 PM",
-    "description": "Make a beautiful resin-based jewelry tray to hold jewelry, makeup, or anything else!"
-  },
-  "Workshop 4": {
     "name": "Silver Ring Making",
     "month": "Mar",
-    "day": "12",
+    "day": "26",
     "time": "4:00 PM",
     "description": "Put a ring on it - yourself!"
+  },
+  "Workshop 2": {
+    "name": "Intro to 3D Modeling",
+    "month": "Mar",
+    "day": "26",
+    "time": "6:00 PM",
+    "description": "Use Autodesk Fusion to learn the principles of 3D modeling."
+  },
+  "Workshop 3": {
+    "name": "Intro to Architectural Modeling",
+    "month": "Apr",
+    "day": "2",
+    "time": "6:00 PM",
+    "description": "Learn the principles of architectural design with Autodesk Revit."
+  },
+  "Workshop 4": {
+    "name": "Make a Custom Folded Paper Box!",
+    "month": "Apr",
+    "day": "3",
+    "time": "6:00 PM",
+    "description": "Learn to use the Cricut machine to make your own folding paper package."
   }
 }
