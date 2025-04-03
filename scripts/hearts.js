@@ -18,7 +18,7 @@ function createSnowRain() {
       const heart = document.createElement('div');
       heart.innerHTML = getRandomElement(flowers);
       heart.style.position = 'absolute';
-      heart.style.fontSize = `${Math.random() * 40 + 10}px`;
+      heart.style.fontSize = `${Math.random() * 20 + 30}px`;
       heart.style.left = `${Math.random() * 100}vw`;
       heart.style.top = '-20px';
       heart.style.opacity = Math.random();
@@ -27,7 +27,6 @@ function createSnowRain() {
   
       let startTime = Date.now();
       let duration = Math.random() * 5 + 8; // Between 8s and 13s
-      let startX = parseFloat(heart.style.left);
       let swayAmount = Math.random() * 20; // Between 50px and 150px
   
       function animate() {
